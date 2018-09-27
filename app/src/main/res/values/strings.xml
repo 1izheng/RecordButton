@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">RecordButton</string>
+
+
+    <string name="record_button_toCancel">手指上滑，取消录音</string>
+    <string name="record_button_releaseToCancel">松开手指，取消录音</string>
+    <string name="record_button_pleaseSayMore">录音时间过短</string>
+
+    <string name="str_recorder_normal">按住 说话</string>
+    <string name="str_recorder_recording">松开 结束</string>
+</resources>

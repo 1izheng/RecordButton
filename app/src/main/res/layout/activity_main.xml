@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.yjz.recordbutton.MainActivity"
+    >
+
+
+    <RelativeLayout
+        android:id="@+id/rly_voice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:visibility="gone"
+        android:background="#00ff00"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:padding="10dp"
+        tools:visibility="visible">
+
+        <ImageView
+            android:id="@+id/icon_voice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/chat_voice_right3" />
+
+        <TextView
+            android:id="@+id/tv_voice_long"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dip"
+            android:layout_toRightOf="@+id/icon_voice"
+            android:textColor="#000000"
+            android:textSize="14sp"
+            tools:text="15" />
+    </RelativeLayout>
+
+    <com.yjz.recordbutton.RecorderButton
+        android:id="@+id/recorder_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_margin="16dp"
+        android:text="@string/str_recorder_normal"
+        />
+
+</RelativeLayout>
